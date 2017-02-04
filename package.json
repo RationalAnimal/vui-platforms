@@ -1,13 +1,18 @@
 {
   "name": "vui-platforms",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "npm module that provides platform related constants and functions for inclusion into other vui-xxx projects.",
   "main": "index.js",
   "author": "Ilya Shubentsov",
   "copyright": "Copyright 2017 Ilya Shubentsov",
   "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/RationalAnimal/vui-platforms"
+  },
   "keywords": [
     "vui",
+    "platforms",
     "alexa"
   ]
 }
