@@ -3,6 +3,10 @@
 npm module that provides platform related constants and functions for inclusion
 into other vui-xxx projects.
 
+# Repository
+This module as well as related vui modules can be found here:
+https://github.com/RationalAnimal
+
 # Installation
 
 ```shell

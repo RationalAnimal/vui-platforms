@@ -1,6 +1,6 @@
 {
   "name": "vui-platforms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "npm module that provides platform related constants and functions for inclusion into other vui-xxx projects.",
   "main": "index.js",
   "author": "Ilya Shubentsov",
