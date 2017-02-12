@@ -24,7 +24,70 @@ SOFTWARE.
 'use strict'
 var platforms = {};
 
+platforms.inheritance.BUILT_IN = "BUILT_IN";
+platforms.inheritance.NATIVE   = "NATIVE";
+platforms.inheritance.EXTENDED = "EXTENDED";
+
 platforms.ALEXA = "Alexa";
 platforms.platforms = [platforms.ALEXA];
+platforms.inputTypes = [];
+platforms.inputTypes[platforms.ALEXA] = [
+  {
+    "XPlatformInputType": "NUMBER",
+    "Mappings": [
+      {
+        "Language": ["en", "en_uk", "en_us", "de"],
+        "IntendedUseLocations": ["*"],
+        "PlatformBuiltInInputType": "AMAZON.NUMBER",
+        "Inheritance": platforms.inheritance.NATIVE
+      }
+    ]
+  },
+  {
+    "XPlatformInputType": "NUMBER_FOUR_DIGIT",
+    "Mappings": [
+      {
+        "Language": ["en", "en_uk", "en_us", "de"],
+        "IntendedUseLocations": ["*"],
+        "PlatformBuiltInInputType": "AMAZON.FOUR_DIGIT_NUMBER",
+        "Inheritance": platforms.inheritance.NATIVE
+      }
+    ]
+  },
+  {
+    "XPlatformInputType": "DATE",
+    "Mappings": [
+      {
+        "Language": ["en", "en_uk", "en_us", "de"],
+        "IntendedUseLocations": ["*"],
+        "PlatformBuiltInInputType": "AMAZON.DATE",
+        "Inheritance": platforms.inheritance.NATIVE
+      }
+    ]
+  },
+  {
+    "XPlatformInputType": "TIME",
+    "Mappings": [
+      {
+        "Language": ["en", "en_uk", "en_us", "de"],
+        "IntendedUseLocations": ["*"],
+        "PlatformBuiltInInputType": "AMAZON.TIME",
+        "Inheritance": platforms.inheritance.NATIVE
+      }
+    ]
+  },
+  {
+    "XPlatformInputType": "DURATION",
+    "Mappings": [
+      {
+        "Language": ["en", "en_uk", "en_us", "de"],
+        "IntendedUseLocations": ["*"],
+        "PlatformBuiltInInputType": "AMAZON.DURATION",
+        "Inheritance": platforms.inheritance.NATIVE
+      }
+    ]
+  }
+];
+
 
 module.exports = platforms;
