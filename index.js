@@ -24,7 +24,7 @@ SOFTWARE.
 'use strict'
 var platforms = {};
 
-platforms.inheritances = {};
+platforms.inheritance = {};
 platforms.inheritance.BUILT_IN = "BUILT_IN";
 platforms.inheritance.NATIVE   = "NATIVE";
 platforms.inheritance.EXTENDED = "EXTENDED";
